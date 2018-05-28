@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Go Go Alarm</string>
+    <string name="alarm">Alarm Time</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="vibrate">Vibrate with sound</string>
+    <string name="label">Label</string>
+    <string name="count">Number of alarms</string>
+    <string name="gap">Time gap between alarms</string>
+    <string name="vol">Set Alarm Volume</string>
+    <string name="go">SET ALARM</string>
+    <string-array name="no_of_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
