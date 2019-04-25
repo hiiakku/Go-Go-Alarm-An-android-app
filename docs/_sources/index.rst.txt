@@ -1,0 +1,81 @@
+.. dashboard documentation master file, created by
+   sphinx-quickstart on Fri Apr  5 18:34:26 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to dashboard's documentation!
+=====================================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   main_data_flow
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+PlaySimple Code Repository link 
+- https://gitlab.com/playsimple/dashboard
+
+Machine Setup
+
+Make sure your Internet is working. :) 
+
+
+Clone this repo by typing ::
+
+$ git clone git@gitlab.com:playsimple/dashboard.git dashboard
+$ cd dashboard/
+
+Installation
+
+Install Virtual Environment using the following command ::
+
+$ brew install python-virtualenv
+
+Create a Virtual Environment ::
+
+$ virtualenv /path/to/virtualenv
+
+Activate the virtualenv using the command ::
+
+$ source /path/to/virtualenv-name/bin/activate
+
+Change the directory to the dashboard/ project using the command ::
+
+$ cd /path/to/dashboard
+
+Install pre-requisites using the command ::
+
+$ pip install -r Requirements.txt
+or you can also type ::
+$ easy_install `cat requirement.txt`
+
+Include repo path to PYTHONPATH ::
+
+$ vim /etc/environment
+PYTHONPATH=/home/ec2-user/workspace/playsimple-code/
+
+Run Python Server
+Assuming your current working directory is:  /path/to/dashboard/analytics/flaskServer
+
+(Dev) Flask's default application server ::
+
+$ python run.py
+
+(Prod) Standalone Gunicorn WSGI Container ::
+
+$ gunicorn -w 4 -b 127.0.0.1:4000 wsgi:application
+
+Using Flask-Script Extension ::
+
+$ python manage.py runserver
+or
+$ python manage.py gunicorn

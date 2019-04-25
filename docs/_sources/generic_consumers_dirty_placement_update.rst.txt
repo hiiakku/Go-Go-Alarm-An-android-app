@@ -1,0 +1,14 @@
+dirty_placement_update module
+=============================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+consumer.py file docs
+---------------------
+
+.. automodule:: data_flow.generic_consumers.dirty_placement_update.consumer
+   :members:

@@ -1,0 +1,14 @@
+mapper module
+=============
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+MapperUtil.py file docs
+-----------------------
+
+.. automodule:: data_flow.mapper.MapperUtil
+   :members:

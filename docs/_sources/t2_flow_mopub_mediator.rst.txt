@@ -1,0 +1,26 @@
+mopub_mediator module
+=====================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+producer.py file docs
+---------------------
+
+.. automodule:: data_flow.adnetworks.t2_flow.mopub_mediator.producer
+   :members:
+
+transformer.py file docs
+------------------------
+
+.. automodule:: data_flow.adnetworks.t2_flow.mopub_mediator.transformer
+   :members:
+
+dataflow.py file docs
+---------------------
+
+.. automodule:: data_flow.adnetworks.t2_flow.mopub_mediator.dataflow
+   :members:

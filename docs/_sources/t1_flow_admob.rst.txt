@@ -1,0 +1,32 @@
+admob module
+============
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+google_auth.py file docs
+------------------------
+
+.. automodule:: data_flow.adnetworks.t1_flow.admob.google_auth
+   :members:
+
+constants.py file docs
+----------------------
+
+.. automodule:: data_flow.adnetworks.t1_flow.admob.constants
+   :members:
+
+producer.py file docs
+---------------------
+
+.. automodule:: data_flow.adnetworks.t1_flow.admob.producer
+   :members:
+
+dataflow.py file docs
+---------------------
+
+.. automodule:: data_flow.adnetworks.t1_flow.admob.dataflow
+   :members:

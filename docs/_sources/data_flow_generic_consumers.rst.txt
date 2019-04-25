@@ -1,0 +1,10 @@
+generic_consumers module
+========================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   generic_consumers_mongo_placement
+   generic_consumers_redshift
+   generic_consumers_dirty_placement_update

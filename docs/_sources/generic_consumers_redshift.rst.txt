@@ -1,0 +1,20 @@
+redshift module
+===============
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+consumer.py file docs
+---------------------
+
+.. automodule:: data_flow.generic_consumers.redshift.consumer
+   :members:
+
+utils.py file docs
+------------------
+
+.. automodule:: data_flow.generic_consumers.redshift.utils
+   :members:

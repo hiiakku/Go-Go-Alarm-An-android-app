@@ -1,0 +1,20 @@
+mongo_placement module
+======================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+
+
+consumer.py file docs
+---------------------
+
+.. automodule:: data_flow.generic_consumers.mongo_placement.consumer
+   :members:
+
+utils.py file docs
+------------------
+
+.. automodule:: data_flow.generic_consumers.mongo_placement.utils
+   :members:
